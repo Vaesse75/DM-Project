@@ -3,17 +3,17 @@
  * Description: Default Character class to be extended by particular game characters.
  * 
  * @author Vaesse
- * @version 0.0.1
+ * @version 0.0.2
  */
 
 import java.util.ArrayList;
 
 public class Character
 {
-	Desc desc = new Desc(); // Includes name and race and job and pic and any desc type properties.
-	ArrayList<Stat> stats = new ArrayList<Stat>(); // Include calculated stats.  Should change infrequently.
-	ArrayList<Skill> skills = new ArrayList<Skill>(); // Include spells and languages and other frequently changing abilities.
-	ArrayList<Inv> inventory = new ArrayList<Inv>(); // All inv objects are separate.
+	Desc desc = new Desc(); 
+	ArrayList<System.Stat> stats = new ArrayList<System.Stat>(); 
+	ArrayList<System.Skill> skills = new ArrayList<System.Skill>(); 
+	ArrayList<System.Item> inventory = new ArrayList<System.Item>(); 
 	
 	/**
 	 * Gets the name of the character.
@@ -242,36 +242,12 @@ public class Character
 	
 	/**
 	 * Internal class to establish description objects.
+	 * Includes name and race and job and pic and any desc type properties.
 	 */
 	private class Desc
 	{
 		//
 	}
 	
-	/**
-	 * Internal class to establish Stat objects.
-	 */
-	private class Stat
-	{
-		String id = "";
-		//
-	}
-	
-	/**
-	 * Internal class to establish skill objects.
-	 */
-	private class Skill
-	{
-		String id = "";
-		//
-	}
-	
-	/**
-	 * Internal class to establish inventory objects.
-	 */
-	private class Inv
-	{
-		int id = 0; // CAN NOT REMAIN 0!!!!
-		//
-	}
+
 }
