@@ -1,0 +1,8 @@
+{
+	"Name":"Middle-Earth Roleplaying",
+	"By":"Iron Crown Enterprises/Wizards of the Coast",
+	"Desc":"Based on \"The Hobbit\" and \"The Lord of the Rings\". Perfect for seasoned players as well as those who have never experienced the thrill of fantasy role playing.",
+	"Type":"Percentile",
+	"Path":"MERP",
+	"File":["System.json","Char.json"],
+}

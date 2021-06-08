@@ -6,7 +6,7 @@
  * @version 0.0.2
  */
 
-public class System
+public class Module
 {
 	// Defines:
 	// game system (provide a description)

@@ -11,9 +11,9 @@ import java.util.ArrayList;
 public class Character
 {
 	Desc desc = new Desc(); 
-	ArrayList<System.Stat> stats = new ArrayList<System.Stat>(); 
-	ArrayList<System.Skill> skills = new ArrayList<System.Skill>(); 
-	ArrayList<System.Item> inventory = new ArrayList<System.Item>(); 
+	ArrayList<Module.Stat> stats = new ArrayList<Module.Stat>(); 
+	ArrayList<Module.Skill> skills = new ArrayList<Module.Skill>(); 
+	ArrayList<Module.Item> inventory = new ArrayList<Module.Item>(); 
 	
 	/**
 	 * Gets the name of the character.
@@ -248,6 +248,4 @@ public class Character
 	{
 		//
 	}
-	
-
 }
